@@ -1,0 +1,123 @@
+// .card-holder{
+    .card-holder{
+        header{
+            background-color: red;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        position: relative;
+        background-color: black;
+        height: 100vh;
+        width: 30%;
+        animation-name: card-holder;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        .img-1{
+            position: absolute;
+            top: 80;
+            left: 2px;
+            width: 50%;
+            border-radius: 50%;
+            border: solid yellow;
+            &:hover{
+                border: solid blue;
+            }
+            
+        }
+        .img-2{
+            position: absolute;
+            top: 250px;
+            left: 100px;
+            border-radius: 50%;
+            width: 40%;
+            &:hover{
+                border: solid blue;
+            }
+        }
+        .img-3{
+            position: absolute;
+            top: 100px;
+            right: 40px;
+            width: 40%;
+            border-radius: 50%;
+            &:hover{
+                border: solid blue;
+            }
+        }
+        i{
+            animation-name: icon;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            border: dotted yellow;
+            border-radius: 50%;
+            font-size: 40px;
+            color: aliceblue;
+    
+        }
+        h3{
+            margin-top: 25rem;
+            text-align: center;
+            color: aliceblue;
+        }
+    }
+    @keyframes card-holder {
+        0%{
+            background: linear-gradient(to right, #34547a, #04effb92), url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_52683-76739.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+            background-size: cover;
+        }
+        25%{
+            background: linear-gradient(to right,rgba(0, 0, 0, 0.576), rgba(247, 0, 255, 0)), url(https://img.freepik.com/free-vector/gold-luxury-background_52683-43998.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+            background-size: cover;
+      
+        }
+        50%{
+            background: linear-gradient(to 45deg,rgba(0, 0, 0, 0.524), rgba(255, 99, 71, 0.362)),url(https://img.freepik.com/free-vector/gradient-luxury-background_23-2148989434.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+            background-size: cover;
+    
+        }
+        100%{
+            background: linear-gradient(to right,rgba(0, 126, 128, 0), rgba(0, 255, 229, 0.049)),url(https://img.freepik.com/premium-photo/traditional-thai-style-handcraft-weave-rattan-texture-background_154224-736.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+            background-size: cover;
+    
+        }
+    }
+    @keyframes icon {
+        0%{
+      background-color: #04effb92;
+        }
+        50%{
+     background-color: aqua;
+        }
+        100%{
+    background-color: #34547a;
+        }
+    }
+    @media(max-width:500px){
+        .card-holder{
+            border-radius: 10px;
+            width: 80%;
+            height: 90vh;
+            .img-1{
+                position: absolute;
+            top: 80;
+            left: 2px;
+            width: 60%;
+            }
+            .img-2{
+                position: absolute;
+                top: 290px;
+                left: 40px;
+                width: 50%;
+            }
+            .img-3{
+                position: absolute;
+                top: 180px;
+                 right: 10px;
+                width: 40%;
+            }
+        }
+    }
+// }

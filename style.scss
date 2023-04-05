@@ -1,0 +1,17 @@
+@import"./partial/style";
+@import"./partial/modernfun";
+@import"./partial/chair";
+@import"./variables";
+header{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    // background-color: rgba(255, 242, 0, 0.417);
+    a{
+        text-decoration: none;
+        &:hover{
+            color: aqua;
+        }
+    }
+}
