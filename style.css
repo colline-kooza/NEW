@@ -1,4 +1,5 @@
 .card-holder {
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +64,7 @@
 
 @keyframes card-holder {
   0% {
-    background: linear-gradient(to right, #34547a, rgba(4, 239, 251, 0.5725490196)), url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_52683-76739.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+    background: linear-gradient(to right, #34547a, rgba(4, 239, 251, 0.5725490196)), url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
   }
   25% {
@@ -319,6 +320,7 @@
   }
 }
 .card3 {
+  border-radius: 20px;
   animation-name: card-holder;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -394,24 +396,6 @@
     width: 80%;
   }
 }
-@keyframes card-holder {
-  0% {
-    background: linear-gradient(to right, #34547a, rgba(4, 239, 251, 0.5725490196));
-    background-size: cover;
-  }
-  25% {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.576), rgba(247, 0, 255, 0));
-    background-size: cover;
-  }
-  50% {
-    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.524), rgba(255, 99, 71, 0.362));
-    background-size: cover;
-  }
-  100% {
-    background: linear-gradient(to right, rgba(0, 126, 128, 0), rgba(0, 255, 229, 0.049));
-    background-size: cover;
-  }
-}
 * {
   padding: 0;
   margin: 0;
@@ -424,7 +408,6 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.458);
 }
 
 header {

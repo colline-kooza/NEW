@@ -1,5 +1,6 @@
 // .card-holder{
     .card-holder{
+        border-radius: 20px;
         header{
             background-color: red;
         }
@@ -65,7 +66,7 @@
     }
     @keyframes card-holder {
         0%{
-            background: linear-gradient(to right, #34547a, #04effb92), url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_52683-76739.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
+            background: linear-gradient(to right, #34547a, #04effb92), url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
             background-size: cover;
         }
         25%{

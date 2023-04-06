@@ -1,4 +1,5 @@
 .card3{
+    border-radius: 20px;
     animation-name: card-holder;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -81,24 +82,24 @@
         width: 80%;
     }
 }
-@keyframes card-holder {
-    0%{
-        background: linear-gradient(to right, #34547a, #04effb92), ;
-        background-size: cover;
-    }
-    25%{
-        background: linear-gradient(to right,rgba(0, 0, 0, 0.576), rgba(247, 0, 255, 0)),;
-        background-size: cover;
+// @keyframes card-holder {
+//     0%{
+//         background: linear-gradient(to right, #34547a, #04effb92), ;
+//         background-size: cover;
+//     }
+//     25%{
+//         background: linear-gradient(to right,rgba(0, 0, 0, 0.576), rgba(247, 0, 255, 0)),;
+//         background-size: cover;
   
-    }
-    50%{
-        background: linear-gradient(to 45deg,rgba(0, 0, 0, 0.524), rgba(255, 99, 71, 0.362)),;
-        background-size: cover;
+//     }
+//     50%{
+//         background: linear-gradient(to 45deg,rgba(0, 0, 0, 0.524), rgba(255, 99, 71, 0.362)),;
+//         background-size: cover;
 
-    }
-    100%{
-        background: linear-gradient(to right,rgba(0, 126, 128, 0), rgba(0, 255, 229, 0.049)),;
-        background-size:cover ;
+//     }
+//     100%{
+//         background: linear-gradient(to right,rgba(0, 126, 128, 0), rgba(0, 255, 229, 0.049)),;
+//         background-size:cover ;
 
-    }
-}
+//     }
+// }
