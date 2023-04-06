@@ -95,7 +95,7 @@
   .card-holder {
     border-radius: 10px;
     width: 80%;
-    height: 98vh;
+    height: 98%;
   }
   .card-holder .img-1 {
     position: absolute;
@@ -267,7 +267,7 @@
   .modernfun {
     padding: 3px 0px;
     width: 80%;
-    height: 90vh;
+    height: 90%;
     gap: 15px;
     padding: 10px;
   }
@@ -395,7 +395,7 @@
 
 @media (max-width: 500px) {
   .card3 {
-    height: 90vh;
+    height: 90%;
     border-radius: 20px;
     width: 80%;
   }
