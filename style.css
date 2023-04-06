@@ -8,10 +8,7 @@
   position: relative;
   background-color: black;
   height: 100vh;
-  width: 30%;
-  animation-name: card-holder;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  width: 30vw;
 }
 .card-holder header {
   background-color: red;
@@ -30,7 +27,7 @@
 .card-holder .img-2 {
   position: absolute;
   top: 250px;
-  left: 100px;
+  left: 30px;
   border-radius: 50%;
   width: 40%;
 }
@@ -40,7 +37,7 @@
 .card-holder .img-3 {
   position: absolute;
   top: 100px;
-  right: 40px;
+  right: 20px;
   width: 40%;
   border-radius: 50%;
 }
@@ -62,40 +59,23 @@
   color: aliceblue;
 }
 
-@keyframes card-holder {
-  0% {
-    background: linear-gradient(to right, #34547a, rgba(4, 239, 251, 0.5725490196)), url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-    background-size: cover;
-  }
-  25% {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.576), rgba(247, 0, 255, 0)), url(https://img.freepik.com/free-vector/gold-luxury-background_52683-43998.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
-    background-size: cover;
-  }
-  50% {
-    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.524), rgba(255, 99, 71, 0.362)), url(https://img.freepik.com/free-vector/gradient-luxury-background_23-2148989434.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
-    background-size: cover;
-  }
-  100% {
-    background: linear-gradient(to right, rgba(0, 126, 128, 0), rgba(0, 255, 229, 0.049)), url(https://img.freepik.com/premium-photo/traditional-thai-style-handcraft-weave-rattan-texture-background_154224-736.jpg?size=626&ext=jpg&uid=R94785283&ga=GA1.1.1386299197.1680520381&semt=ais);
-    background-size: cover;
-  }
-}
 @keyframes icon {
   0% {
-    background-color: rgba(4, 239, 251, 0.5725490196);
+    background-color: rgba(255, 255, 0, 0.671);
   }
   50% {
-    background-color: aqua;
+    background-color: rgba(255, 255, 0, 0.671);
   }
   100% {
-    background-color: #34547a;
+    background-color: rgba(255, 255, 0, 0.497);
   }
 }
 @media (max-width: 500px) {
   .card-holder {
+    display: flex;
+    gap: 70px;
     padding: 1rem;
-    border-radius: 10px;
-    width: 80%;
+    width: 100%;
     height: 100%;
   }
   .card-holder .img-1 {
